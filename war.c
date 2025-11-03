@@ -65,6 +65,8 @@ int main() {
 
  Territorio territorios[6]; // Vetor para armazenar 5 territórios
     int i;
+    int opcao;
+    /*
 
     printf("===== Cadastro de Territórios =====\n\n Pressione Enter para começar \n\n");
 
@@ -93,12 +95,14 @@ int main() {
     printf("===== Territórios Cadastrados =====\n\n");
 
     for (i = 1; i < 6; i++) {
-        printf("Território %d:\n", i );
-        printf("Nome: %s\n", territorios[i].nome);
-        printf("Cor do Exército: %s\n", territorios[i].cor);
-        printf("Quantidade de Tropas: %d\n", territorios[i].tropas);
-        printf("-----------------------------------\n");
+        printf("Território %d. %s (Exército %s, Tropas %d)\n", i,territorios[i].nome,territorios[i].cor,territorios[i].tropas);
     }
+
+    printf("===== Fase de Ataque =====\n\n");
+
+*/
+
+
 
     printf("Fim do programa.\n");
 
